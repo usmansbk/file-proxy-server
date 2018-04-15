@@ -1,4 +1,4 @@
-# image-server
+# file-proxy-server
 A proxy server for serving files with CORS enabled
 ## Usage
 ```
