@@ -4,7 +4,8 @@
   "description": "A proxy for serving images with no Access-Control-Allow-Origin header",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev" "nodemon"
   },
   "keywords": [
     "proxy",
@@ -13,5 +14,14 @@
     "request"
   ],
   "author": "Babakolo Usman Suleiman",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
 }
