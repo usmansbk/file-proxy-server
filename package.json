@@ -1,12 +1,12 @@
 {
-  "name": "imageserver",
+  "name": "proxyserver",
   "version": "1.0.0",
-  "description": "A proxy for serving images with no Access-Control-Allow-Origin header",
+  "description": "A proxy for serving files with CORS enabled",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon ./lib/index.js",
-    "build": "npx babel -w src --out-dir lib"
+    "start:dev": "nodemon",
+    "start": "node index.js"
   },
   "keywords": [
     "proxy",
@@ -22,8 +22,6 @@
     "request": "^2.85.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
     "nodemon": "^1.17.3"
   }
 }
