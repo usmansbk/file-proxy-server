@@ -1,0 +1,17 @@
+{
+  "name": "imageserver",
+  "version": "1.0.0",
+  "description": "A proxy for serving images with no Access-Control-Allow-Origin header",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proxy",
+    "express",
+    "server",
+    "request"
+  ],
+  "author": "Babakolo Usman Suleiman",
+  "license": "ISC"
+}
